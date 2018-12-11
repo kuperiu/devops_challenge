@@ -1,5 +1,3 @@
-# opstest
-
 # devops_challenge
 
 ## The objective
