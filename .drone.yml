@@ -8,3 +8,4 @@ pipeline:
     image: node:8.10
     commands:
       - npm install
+
