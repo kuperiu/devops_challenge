@@ -1,11 +1,11 @@
-clone:
-  CLONE REPO:
-    image: plugins/git
-    depth: 1
+name: default
 
-pipeline:
-  INSTALL DEPENDENCIES:
-    image: node:8.10
-    commands:
-      - npm install
+kind: pipeline
+type: docker
 
+steps:
+- name: frontend
+  image: node:6
+  commands:
+    - npm install
+    - npm test
