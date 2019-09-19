@@ -5,7 +5,6 @@ type: docker
 
 steps:
 - name: frontend
-  image: node:6
+  image: 617007418524.dkr.ecr.eu-central-1.amazonaws.com/lior_test:latest
   commands:
-    - npm install
-    - npm test
+    - go test
