@@ -5,7 +5,7 @@ type: docker
 
 steps:
 - name: frontend
-  image: 617007418524.dkr.ecr.eu-central-1.amazonaws.com/lior_test:latest
+  image: golang:1.12
   commands:
     - go test
 
